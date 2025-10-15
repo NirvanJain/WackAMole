@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wack-A-Mole game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Wack-A-Mole Game</h1>
+    <p>Click on the moles as they appear!</p>
+    <div id="scoreboard">Score: <span id="score">0</span></div>
+    <div id="game-board">
+        <button class="mole" id="mole-1">
+            <div class="mole-content"></div>
+        </button>
+        <button class="mole" id="mole-2" active>
+            <div class="mole-content"></div>
+        </button>
+        <button class="mole" id="mole-3">
+            <div class="mole-content"></div>
+        </button>
+    </div>
+    <div id="controls">
+        <button class="control" id="gamestart" onclick="startGame()">Start game</button>
+        <p id="win-message" style="display:none;">🎉 You Win!</p>
+        <button id="restart-btn" style="display:none;">Restart</button>
+    </div>
+    <br><br>
+    <h1>Instructions</h1>
+    <p>Welcome to the Wack-A-Mole game!</p>
+    BEST OF LUCK <br><br>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
