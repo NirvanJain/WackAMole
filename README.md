@@ -4,7 +4,7 @@ A fun, fast-paced browser game where your goal is simple: **spot the mole, whack
 ---
 
 ## 🚀 Live Demo
-👉 *Add link here once deployed*
+👉 *https://gleaming-nougat-c7b08e.netlify.app/*
 
 ---
 
