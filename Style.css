@@ -80,7 +80,7 @@ p{
 }
 
 .mole.active .mole-content::before {
-    content: "🐹";
+    content: "❤️";
 }
 
 
@@ -93,3 +93,4 @@ p{
     color: white;
 
 }
+
